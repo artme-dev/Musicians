@@ -26,6 +26,7 @@ class NetworkService<EndPoint: EndPointType>: NetworkServiceType {
             session.dataTask(with: urlRequest) { [weak self] data, response, error in
                 guard let self = self else { return }
                 completion((data, response, error))
+                
                 self.logResponse(response)
             }.resume()
             logRequest(urlRequest)

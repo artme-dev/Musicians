@@ -120,9 +120,9 @@
 		A29571C726D37B1400D9A984 /* Musicians */ = {
 			isa = PBXGroup;
 			children = (
-				A26FEE2226D5F64F00C57E74 /* Helpers */,
 				A29571FF26D3C26400D9A984 /* SpotifyApiService */,
 				A29571E026D3814E00D9A984 /* NetworkService */,
+				A26FEE2226D5F64F00C57E74 /* Helpers */,
 				A29571C826D37B1400D9A984 /* AppDelegate.swift */,
 				A29571CA26D37B1400D9A984 /* SceneDelegate.swift */,
 				A29571CC26D37B1400D9A984 /* ViewController.swift */,
