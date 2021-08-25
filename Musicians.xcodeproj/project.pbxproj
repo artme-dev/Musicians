@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A26FEE1626D4891B00C57E74 /* SpotifyWebApiEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26FEE1526D4891B00C57E74 /* SpotifyWebApiEndpoint.swift */; };
+		A26FEE1826D4893300C57E74 /* SpotifyWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26FEE1726D4893300C57E74 /* SpotifyWebService.swift */; };
+		A26FEE1A26D4894E00C57E74 /* SpotifyWebModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26FEE1926D4894E00C57E74 /* SpotifyWebModel.swift */; };
+		A26FEE1E26D4A1C500C57E74 /* SpotifyWebManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26FEE1D26D4A1C500C57E74 /* SpotifyWebManager.swift */; };
+		A26FEE2126D4FF5900C57E74 /* SpotifyWebFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26FEE2026D4FF5900C57E74 /* SpotifyWebFetcher.swift */; };
+		A26FEE2426D5F66300C57E74 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26FEE2326D5F66300C57E74 /* Logger.swift */; };
 		A29571C926D37B1400D9A984 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29571C826D37B1400D9A984 /* AppDelegate.swift */; };
 		A29571CB26D37B1400D9A984 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29571CA26D37B1400D9A984 /* SceneDelegate.swift */; };
 		A29571CD26D37B1400D9A984 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29571CC26D37B1400D9A984 /* ViewController.swift */; };
@@ -21,12 +27,18 @@
 		A29571F526D38ECE00D9A984 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29571F426D38ECE00D9A984 /* JSONParameterEncoder.swift */; };
 		A29571F726D3948500D9A984 /* NetworkServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29571F626D3948500D9A984 /* NetworkServiceType.swift */; };
 		A29571F926D3A20100D9A984 /* URLRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29571F826D3A20100D9A984 /* URLRequestBuilder.swift */; };
-		A295720126D3C30800D9A984 /* SpotifyAuthApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A295720026D3C30800D9A984 /* SpotifyAuthApi.swift */; };
+		A295720126D3C30800D9A984 /* SpotifyAuthApiEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A295720026D3C30800D9A984 /* SpotifyAuthApiEndpoint.swift */; };
 		A295720326D3C79200D9A984 /* SpotifyAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A295720226D3C79200D9A984 /* SpotifyAuthService.swift */; };
 		A295720626D3CDF900D9A984 /* SpotifyAuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A295720526D3CDF900D9A984 /* SpotifyAuthModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A26FEE1526D4891B00C57E74 /* SpotifyWebApiEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyWebApiEndpoint.swift; sourceTree = "<group>"; };
+		A26FEE1726D4893300C57E74 /* SpotifyWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyWebService.swift; sourceTree = "<group>"; };
+		A26FEE1926D4894E00C57E74 /* SpotifyWebModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyWebModel.swift; sourceTree = "<group>"; };
+		A26FEE1D26D4A1C500C57E74 /* SpotifyWebManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyWebManager.swift; sourceTree = "<group>"; };
+		A26FEE2026D4FF5900C57E74 /* SpotifyWebFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyWebFetcher.swift; sourceTree = "<group>"; };
+		A26FEE2326D5F66300C57E74 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		A29571C526D37B1400D9A984 /* Musicians.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musicians.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A29571C826D37B1400D9A984 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A29571CA26D37B1400D9A984 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +55,7 @@
 		A29571F426D38ECE00D9A984 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
 		A29571F626D3948500D9A984 /* NetworkServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceType.swift; sourceTree = "<group>"; };
 		A29571F826D3A20100D9A984 /* URLRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequestBuilder.swift; sourceTree = "<group>"; };
-		A295720026D3C30800D9A984 /* SpotifyAuthApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyAuthApi.swift; sourceTree = "<group>"; };
+		A295720026D3C30800D9A984 /* SpotifyAuthApiEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyAuthApiEndpoint.swift; sourceTree = "<group>"; };
 		A295720226D3C79200D9A984 /* SpotifyAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyAuthService.swift; sourceTree = "<group>"; };
 		A295720526D3CDF900D9A984 /* SpotifyAuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyAuthModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,6 +71,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A26FEE1326D4880800C57E74 /* Authorisation */ = {
+			isa = PBXGroup;
+			children = (
+				A295720026D3C30800D9A984 /* SpotifyAuthApiEndpoint.swift */,
+				A295720226D3C79200D9A984 /* SpotifyAuthService.swift */,
+				A295720526D3CDF900D9A984 /* SpotifyAuthModel.swift */,
+			);
+			path = Authorisation;
+			sourceTree = "<group>";
+		};
+		A26FEE1426D4887400C57E74 /* WebApi */ = {
+			isa = PBXGroup;
+			children = (
+				A26FEE1526D4891B00C57E74 /* SpotifyWebApiEndpoint.swift */,
+				A26FEE1926D4894E00C57E74 /* SpotifyWebModel.swift */,
+				A26FEE1D26D4A1C500C57E74 /* SpotifyWebManager.swift */,
+				A26FEE2026D4FF5900C57E74 /* SpotifyWebFetcher.swift */,
+				A26FEE1726D4893300C57E74 /* SpotifyWebService.swift */,
+			);
+			path = WebApi;
+			sourceTree = "<group>";
+		};
+		A26FEE2226D5F64F00C57E74 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A26FEE2326D5F66300C57E74 /* Logger.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		A29571BC26D37B1400D9A984 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +120,7 @@
 		A29571C726D37B1400D9A984 /* Musicians */ = {
 			isa = PBXGroup;
 			children = (
+				A26FEE2226D5F64F00C57E74 /* Helpers */,
 				A29571FF26D3C26400D9A984 /* SpotifyApiService */,
 				A29571E026D3814E00D9A984 /* NetworkService */,
 				A29571C826D37B1400D9A984 /* AppDelegate.swift */,
@@ -133,9 +176,8 @@
 		A29571FF26D3C26400D9A984 /* SpotifyApiService */ = {
 			isa = PBXGroup;
 			children = (
-				A295720026D3C30800D9A984 /* SpotifyAuthApi.swift */,
-				A295720226D3C79200D9A984 /* SpotifyAuthService.swift */,
-				A295720526D3CDF900D9A984 /* SpotifyAuthModel.swift */,
+				A26FEE1426D4887400C57E74 /* WebApi */,
+				A26FEE1326D4880800C57E74 /* Authorisation */,
 			);
 			path = SpotifyApiService;
 			sourceTree = "<group>";
@@ -150,6 +192,7 @@
 				A29571C126D37B1400D9A984 /* Sources */,
 				A29571C226D37B1400D9A984 /* Frameworks */,
 				A29571C326D37B1400D9A984 /* Resources */,
+				A26FEE2526D6078A00C57E74 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -205,6 +248,26 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A26FEE2526D6078A00C57E74 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"Warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A29571C126D37B1400D9A984 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -217,13 +280,19 @@
 				A29571F526D38ECE00D9A984 /* JSONParameterEncoder.swift in Sources */,
 				A29571E826D3825F00D9A984 /* HTTPMethod.swift in Sources */,
 				A29571DF26D37BF700D9A984 /* NetworkService.swift in Sources */,
+				A26FEE1626D4891B00C57E74 /* SpotifyWebApiEndpoint.swift in Sources */,
+				A26FEE1E26D4A1C500C57E74 /* SpotifyWebManager.swift in Sources */,
 				A29571E626D381A100D9A984 /* EndPointType.swift in Sources */,
 				A295720626D3CDF900D9A984 /* SpotifyAuthModel.swift in Sources */,
 				A295720326D3C79200D9A984 /* SpotifyAuthService.swift in Sources */,
+				A26FEE2126D4FF5900C57E74 /* SpotifyWebFetcher.swift in Sources */,
 				A29571CB26D37B1400D9A984 /* SceneDelegate.swift in Sources */,
 				A29571EF26D3896F00D9A984 /* URLParameterEncoder.swift in Sources */,
+				A26FEE2426D5F66300C57E74 /* Logger.swift in Sources */,
 				A29571F726D3948500D9A984 /* NetworkServiceType.swift in Sources */,
-				A295720126D3C30800D9A984 /* SpotifyAuthApi.swift in Sources */,
+				A295720126D3C30800D9A984 /* SpotifyAuthApiEndpoint.swift in Sources */,
+				A26FEE1A26D4894E00C57E74 /* SpotifyWebModel.swift in Sources */,
+				A26FEE1826D4893300C57E74 /* SpotifyWebService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

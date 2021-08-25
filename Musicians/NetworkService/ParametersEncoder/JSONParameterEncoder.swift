@@ -7,10 +7,10 @@
 
 import Foundation
 
-class JSONParameterEncoder: ParameterEncoderType{
+class JSONParameterEncoder: ParameterEncoderType {
     var encodingTypeFieldValue = "application/json"
-    
-    func add(_ parameters: Parameters, to urlRequest: inout URLRequest) throws{
+
+    func add(_ parameters: Parameters, to urlRequest: inout URLRequest) throws {
         let serialisedParameters = try JSONSerialization.data(withJSONObject: parameters,
                                                               options: .prettyPrinted)
         urlRequest.httpBody = serialisedParameters

@@ -7,14 +7,15 @@
 
 import Foundation
 
-public typealias NetworkRequestCompletion = (_ data: Data?,_ response: URLResponse?,_ error: Error?)->()
+typealias NetworkResponseInfo = (Data?, URLResponse?, Error?)
+typealias NetworkRequestCompletion = (NetworkResponseInfo) -> Void
 
-enum NetworkServiceError: String, Error{
+enum NetworkServiceError: String, Error {
     case cannotBuildRequest = "Cannot build request from endpoint"
 }
 
-protocol NetworkServiceType: AnyObject  {
+protocol NetworkServiceType: AnyObject {
     associatedtype EndPoint: EndPointType
-    
+
     func request(_ route: EndPoint, completion: @escaping NetworkRequestCompletion)
 }

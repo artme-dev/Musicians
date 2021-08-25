@@ -7,8 +7,8 @@
 
 import Foundation
 
-public typealias Parameters = [String:Any]
-public typealias HTTPHeaders = [String:String]
+public typealias Parameters = [String: Any]
+public typealias HTTPHeaders = [String: String]
 
 protocol EndPointType {
     var baseURL: URL { get }
@@ -18,7 +18,7 @@ protocol EndPointType {
     var headers: HTTPHeaders? { get }
 }
 
-struct EndPointParameters{
+struct EndPointParameters {
     var bodyParameters: Parameters?
     var urlParameters: Parameters?
     var headers: HTTPHeaders?
