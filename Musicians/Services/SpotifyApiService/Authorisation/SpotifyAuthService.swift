@@ -9,12 +9,12 @@ import Foundation
 import os
 
 class SpotifyAuthService {
-    private var networkAuthService = NetworkService<SpotifyAuthApiEndpoint>()
-    private var clientID = "28686b8ae7674fbaa95ba3d4809506e5"
-    private var clientSecrete = "2d6b0437d90944d2b3112349317ebfe3"
+    private let networkAuthService = NetworkService<SpotifyAuthApiEndpoint>()
+    private let clientID = "28686b8ae7674fbaa95ba3d4809506e5"
+    private let clientSecrete = "2d6b0437d90944d2b3112349317ebfe3"
     
     private init() {}
-    static var shared = SpotifyAuthService()
+    static let shared = SpotifyAuthService()
     
     private var currentToken: String?
     var token: String? {
